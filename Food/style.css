@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: flex-start; /* Align content to the left */
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('love.jpg'); /* Replace with your image filename */
+    background-size: cover;
+    background-position: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; /* Align buttons vertically */
+    align-items: flex-start; /* Align buttons to the left */
+    height: 100%; /* Full height of the viewport */
+    margin-left: 20px; /* Add space from the left */
+}
+.button {
+    
+    padding: 20px 40px; /* Increased padding for bigger buttons */
+    font-size: 20px; /* Increased font size */
+    color: white;
+    background-color: #9cdcf6; /* Blue color for the buttons */
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.1s ease-in-out;
+    margin-bottom: 15px; /* Adjust vertical spacing between buttons */
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #6CA6CD; /* Darker blue on hover */
+    transform: scale(1.05); /* Slight scale-up effect */
+}
